@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: #000080; /* Dark blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center everything vertically */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Align items on the sides */
+  align-items: center;
+  width: 80%;
+  max-width: 800px; /* Max width for better control on larger screens */
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home, .guest {
+  color: white;
+  font-family: Times 'Times New Roman', Times, serif;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px; /* Adds space between title and score */
+}
+
+.home-score, .guest-score {
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  margin: 20px 0; /* Adds space above and below score */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  border-color: #ffffff;
+}
+
+.glow-title {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+}
